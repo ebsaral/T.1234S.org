@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@keyframes breathe {
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.animate-breathe {
+  animation: breathe 5s infinite;
+}
